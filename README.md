@@ -1,1 +1,1 @@
-# Spellit
+# Speller

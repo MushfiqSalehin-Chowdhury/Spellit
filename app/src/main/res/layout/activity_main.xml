@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wallpaper"
+        android:orientation="vertical"
+        tools:context=".Activity.MainActivity"
+        >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="150dp"
+      >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="35sp"
+          android:layout_gravity="center_horizontal"
+          android:text="Instructions !!!"
+          android:textColor="@android:color/background_light"
+          android:textStyle="bold|italic"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal|center"
+          android:padding="10dp"
+          android:text="1.Add an Excell sheet(.xls) that contains words."
+          android:textColor="@android:color/background_light"
+          android:textSize="20sp"
+
+          android:textStyle="bold|italic"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="10dp"
+          android:textColor="@android:color/background_light"
+          android:text="2. Listen Carefully What You Hear and Type That."
+          android:layout_gravity="center_horizontal"
+          android:textSize="20sp"
+          android:textStyle="bold|italic"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal|center"
+          android:padding="10dp"
+          android:textColor="@android:color/background_light"
+          android:text="3. Tap on 'Check' Button to check  whether the spelling is Correct or Not."
+          android:textSize="20sp"
+
+          android:textStyle="bold|italic"/>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center|center_horizontal"
+          android:onClick="drawer"
+          android:padding="10dp"
+          android:layout_marginTop="50dp"
+          android:background="@drawable/roundbtn"
+          android:text="PLAY" />
+  </LinearLayout>
+
+
+    </LinearLayout>
+

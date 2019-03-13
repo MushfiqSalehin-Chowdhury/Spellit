@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.Model.DrawerActivity"
+    tools:showIn="@layout/app_bar_drawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_horizontal"
+            android:hint="Enter a Word"
+            android:padding="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@color/colorAccent"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+
+
+        <Button
+            android:id="@+id/check"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+            android:onClick="Check"
+            android:padding="5dp"
+            android:text="Check"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Listen Again?"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:onClick="again"
+            />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</LinearLayout>
