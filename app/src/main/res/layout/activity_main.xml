@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/wallpaper"
         android:orientation="vertical"
-        tools:context=".Activity.MainActivity"
+        tools:context=".Activities.MainActivity"
         >
 
   <LinearLayout

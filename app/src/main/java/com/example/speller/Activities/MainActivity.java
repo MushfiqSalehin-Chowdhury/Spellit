@@ -1,4 +1,4 @@
-package com.example.speller;
+package com.example.speller.Activities;
 
 import android.Manifest;
 import android.content.Intent;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.speller.DrawerActivity;
 import com.example.speller.R;
 
 public class MainActivity extends AppCompatActivity{

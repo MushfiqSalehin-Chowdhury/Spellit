@@ -1,4 +1,4 @@
-package com.example.speller;
+package com.example.speller.Activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -28,6 +28,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.speller.Model.DBHelper;
 import com.example.speller.R;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;

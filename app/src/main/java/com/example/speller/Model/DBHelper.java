@@ -1,4 +1,4 @@
-package com.example.speller;
+package com.example.speller.Model;
 
 
 import android.content.Context;
@@ -15,7 +15,7 @@ public class DBHelper  extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "users_db";
 
     SQLiteDatabase db;
-    ArrayList<String> a = new ArrayList<>();
+    public ArrayList<String> a = new ArrayList<>();
 
     public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
