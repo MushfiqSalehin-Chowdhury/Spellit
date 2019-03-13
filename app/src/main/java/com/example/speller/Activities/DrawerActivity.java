@@ -256,6 +256,8 @@ public class DrawerActivity extends AppCompatActivity
 
     public void Check(View view) {
 
+        Timer timer = new Timer(20000);
+
         if ( !editText.getText().toString().isEmpty()){
             if ( editText.getText().toString().toLowerCase().trim().
                     equals(text.toLowerCase().trim())) {

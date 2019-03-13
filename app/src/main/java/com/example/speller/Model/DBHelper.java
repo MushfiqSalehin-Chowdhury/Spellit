@@ -51,6 +51,7 @@ public class DBHelper  extends SQLiteOpenHelper {
             Cursor cursor1= db.rawQuery("SELECT DISTINCT word  FROM words ",null);
 
             int wordIndex = cursor1.getColumnIndex("word");
+            
 
             cursor1.moveToFirst();
             while (cursor1!=null){
