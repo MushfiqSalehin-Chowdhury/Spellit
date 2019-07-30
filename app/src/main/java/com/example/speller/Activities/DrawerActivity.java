@@ -117,6 +117,7 @@ public class DrawerActivity extends AppCompatActivity
             String src = getPath(uri);
 
             File source = new File(src);
+            assert uri != null;
             filename = uri.getLastPathSegment();
             File destination = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/" + "Spellit");
             if (!destination.exists()){{
@@ -266,7 +267,7 @@ public class DrawerActivity extends AppCompatActivity
                 editText.setText("");
             }
             else {
-                editText.setError("Wrong");
+                editText.setError(text);
                 answer.setText("");
             }
         }
